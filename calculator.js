@@ -6,8 +6,7 @@
 // fluxo de excecução da calculadora
 // usuario digita um número => qual operação deseja fazer? => outro núnmero === resultado
 
-const readline = require("readline");
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.output
-})
+const prompt = require ('prompt-sync') ({});
+
+
+
