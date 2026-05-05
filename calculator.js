@@ -12,8 +12,6 @@ console.log("**SEJA BEM VINDO A LIONS-CALCULATOR HP12C**")
 
 function input() {
 
-        teste++;
-        console.log(teste)
     const numero1 = Number(prompt('Digite o primeiro número: '))
 
     if(isNaN(numero1)) {
